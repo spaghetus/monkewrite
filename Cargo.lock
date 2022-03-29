@@ -1094,10 +1094,10 @@ name = "monkewrite"
 version = "0.1.0"
 dependencies = [
  "eframe",
+ "fastrand",
  "human_format",
  "lazy_static",
  "num_cpus",
- "rand",
 ]
 
 [[package]]

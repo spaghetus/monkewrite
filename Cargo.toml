@@ -9,5 +9,13 @@ edition = "2021"
 eframe = "*"
 lazy_static = "*"
 num_cpus = "*"
-rand = "*"
+fastrand = "*"
 human_format = "1.0.3"
+
+[features]
+default = []
+albert = []
+
+[profile.release]
+opt-level = 3
+# debug = 1
